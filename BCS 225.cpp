@@ -1,3 +1,7 @@
+// COM/B/01-04872/2022 NICK DIEDA
+//COM/B/01-04602/2022 CHERINE OGUTU
+//COM/B/01-00102/2022 MAXWELL NDUNGU
+// COM/B/01-00143/2022 Effy Caren
 
 #include <iostream>
 #include <queue>
