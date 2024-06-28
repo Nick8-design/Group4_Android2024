@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/nickdieda/happybirthday/MainScreen.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/nickdieda/happybirthday/MainScreen.java b/app/src/main/java/com/nickdieda/happybirthday/MainScreen.java
+--- a/app/src/main/java/com/nickdieda/happybirthday/MainScreen.java	
++++ b/app/src/main/java/com/nickdieda/happybirthday/MainScreen.java	(date 1719571874798)
+@@ -49,7 +49,7 @@
+ viewItems.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+-        startActivity(new Intent(getApplicationContext(),View.class));
++        startActivity(new Intent(getApplicationContext(),ViewItems.class));
+     }
+ });
+ deleteItem.setOnClickListener(new View.OnClickListener() {

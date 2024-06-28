@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#f8c478"
+    tools:context=".MainScreen">
+
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+      android:layout_weight="5"
+    >
+
+    <LinearLayout
+        android:id="@+id/addItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ffbb00"
+        android:layout_weight="1"
+        >
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add"
+                android:padding="10dp"
+                android:background="#ffbb00"
+                android:contentDescription="@string/image"
+                >
+
+            </ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_item"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        >
+
+                    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/brown"
+        android:layout_weight="1"
+        >
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hpdframe"
+            android:padding="10dp"
+            android:contentDescription="image"
+            >
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_item"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+   </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        >
+
+        <LinearLayout
+            android:id="@+id/viewItems"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/babypink"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/hpdframe"
+                android:padding="10dp"
+                android:contentDescription="image"
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_items"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/deleteItem"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/my_background_color"
+                android:src="@drawable/delete"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:contentDescription="@string/image"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_item"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

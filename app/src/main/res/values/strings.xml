@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HappyBirthday</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="welcome_to_my_birthday">Welcome to my birthday</string>
+    <string name="nick">Nick</string>
+    <string name="birthday_girl">birthday_girl</string>
+    <string name="product">Product</string>
+    <string name="add_item">Add item</string>
+    <string name="delete_item">Delete item</string>
+    <string name="view_items">View items</string>
+    <string name="mama_watoto_app">Mama Watoto App</string>
+    <string name="image">image</string>
+    <string name="edit_item">Edit item</string>
+</resources>
