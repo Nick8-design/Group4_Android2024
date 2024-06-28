@@ -26,7 +26,7 @@
         android:background="#ffbb00"
         android:layout_weight="1"
         >
-            <ImageButton
+            <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="fitXY"
@@ -36,7 +36,7 @@
                 android:contentDescription="@string/image"
                 >
 
-            </ImageButton>
+            </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         android:background="@color/brown"
         android:layout_weight="1"
         >
-        <ImageButton
+        <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/hpdframe"
@@ -65,7 +65,7 @@
             android:contentDescription="image"
             >
 
-        </ImageButton>
+        </ImageView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
             android:background="@color/babypink"
             android:layout_weight="1"
             >
-            <ImageButton
+            <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
 
@@ -108,7 +108,7 @@
                 android:contentDescription="image"
                 >
 
-            </ImageButton>
+            </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
             android:background="@color/blue"
             android:layout_weight="1"
             >
-            <ImageButton
+            <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@color/my_background_color"
@@ -140,7 +140,7 @@
 
                 >
 
-            </ImageButton>
+            </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
